@@ -1,0 +1,208 @@
+ body {
+     padding: 0%;
+     margin: 0%;
+     font-family: sans-serif;
+     color: #343b46;
+     font-weight: bold;
+ }
+
+ .navbar {
+     display: flex;
+     width: 100vw;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .logo {
+     display: flex;
+     width: 20%;
+     justify-content: center;
+ }
+
+ .menu-bar {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 60%;
+     cursor: pointer;
+ }
+
+ .menu-bar p a {
+     text-decoration: none;
+     color: black;
+     font-size: 15px;
+     font-family: sans-serif;
+     font-weight: bold;
+ }
+
+ .loc-search button {
+     display: flex;
+     padding: 12px 20px;
+     background-color: #ff2b85;
+     border-radius: 25px;
+     color: white;
+     font-weight: bold;
+     font-size: 15px;
+     border-style: none;
+     cursor: pointer;
+ }
+
+ .about-head {
+     position: relative;
+ }
+
+ .about-head-text {
+     position: absolute;
+     top: 130px;
+     color: white;
+     font-size: x-large;
+     margin-left: 50px;
+ }
+
+ .main-content {
+     width: 50%; 
+     margin: 60px;
+ }
+
+ .main-content-text-head {
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .main-content-text-paragraph {
+     line-height: 20px;
+     font-weight: lighter;
+ }
+
+ .customer-page {
+     margin: 100px 0px;
+     background-color: rgb(241, 241, 241);
+ }
+
+ .slide-one {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ 
+
+ .customer-page-text {
+     width: 30%;
+     margin: 80px 0px;
+ }
+
+ .customer-page-text-content {
+     line-height: 20px;
+     font-weight: lighter;
+ }
+
+ .button-values {
+     margin: 60px 0px;
+ }
+
+ .button-heading {
+     display: flex;
+     justify-content: center;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .button-list button {
+     color: #ff2b85;
+     border-color: #ff2b85;
+     padding: 10px 20px;
+     font-weight: bold;
+     font-size: 17px;
+     margin: 15px 13px;
+     border-radius: 25px;
+     background-color: rgb(251, 251, 252);
+ }
+
+ .button-list-one {
+     display: flex;
+     justify-content: center;
+ }
+
+ .button-list-two {
+     display: flex;
+     justify-content: center;
+ }
+ .sub-content {
+     display: flex;
+     justify-content: center;
+ }
+
+ .sub-content-img {
+     display: flex;
+ }
+
+ .sub-content-text {
+     width: 25%;
+     margin: 45px 20px;
+ }
+
+ .sub-content-text h1 {
+     font-size: 40px;
+ }
+
+ .sub-content-text p {
+     line-height: 25px;
+     font-weight: lighter;
+     font-size: 17px;
+ }
+
+ .job-slide {
+     display: flex;
+     justify-content: space-around;
+     background-color: rgb(241, 241, 241);
+ }
+
+ .job-slide-text {
+     width: 40%;
+     margin: 80px 0px;
+ }
+
+ .job-slide-text h1 {
+     font-size: 40px;
+ }
+
+ .job-slide-text p {
+     font-weight: lighter;
+     line-height: 25px;
+     font-size: 17px;
+ }
+
+ .job-slide-text button {
+     display: flex;
+     padding: 12px 30px;
+     background-color: #ff2b85;
+     border-radius: 25px;
+     color: white;
+     font-weight: bold;
+     font-size: 17px;
+     border-style: none;
+ }
+
+ .footer {
+     background-color: black;
+     color: white;
+     padding: 80px;
+ }
+
+ .footer-menu {
+     display: flex;
+ }
+
+ .footer-navigate {
+     margin: 30px 100px 30px 0
+ }
+
+ .footer-collaborate {
+     margin: 30px 80px 30px 100px;
+ }
+ .footer-copyrights
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+ }
